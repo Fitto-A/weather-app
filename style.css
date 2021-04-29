@@ -1,0 +1,76 @@
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family:  'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+
+}
+
+#tittle{
+    font-size: 4rem;
+
+}
+
+.form{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+#search{
+    outline: none;
+    font-size: 2rem;
+    border: none;
+    border-bottom: 2px solid royalblue;
+}
+
+.submit-btn{
+    margin-left: 3rem;
+    outline: none;
+    cursor: pointer;
+    padding: 1rem;
+    font-size: 2rem;
+    border: none;
+    border-radius: 50%;
+    background-color: salmon;
+}
+
+.form-result{
+
+    text-align: center;
+    border: 2px solid royalblue;
+    border-radius: 4px;
+    padding: 1.5rem;
+    width: 50%;
+}
+
+#city-name{
+    font-size: 3.5rem;
+}
+
+#temp{
+    font-size: 3.5rem;
+}
+
+/*
+.form-result{
+    position: fixed;
+    width: 30%;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    padding: 0.7rem;
+    text-align: center;
+
+    z-index: 1;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+
+}
+
+.form-result-active{
+    transform: translate(-50%, -50%) scale(1);
+
+}
+/*
